@@ -16,7 +16,7 @@ Vagrant.configure("2") do |config|
 
   config.vm.define "machine2" do |machine2|
     machine2.vm.box = "generic/debian12"
-    machine2.vm.box_version = "4.3.2"
+    machine2.vm.box_version = "4.3.12"
 
     machine2.vm.hostname = "machine2"
     machine2.vm.network "private_network", ip: "192.168.56.11"
